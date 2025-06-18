@@ -1,7 +1,7 @@
 # 🧪 Build Your Own SOC Home Lab: Step-by-Step Guide 
 
 > ✅ **Overview**  
-> This guide walks you through the steps to install and set up a basic **Security Operations Center (SOC) home lab** using **VirtualBox**, **Windows 10**, **Kali Linux**, and tools like **Sysmon** and **Splunk**. This lab will help you simulate attacker–defender scenarios, monitor activity, and practice your SOC analyst skills in a safe environment.
+> This comprehensive guide walks you through setting up a fully functional Security Operations Center (SOC) home lab, compatible with both VirtualBox and VMware Workstation. You'll build a safe, isolated environment using Windows 10, Kali Linux, Sysmon, and Splunk to simulate real-world attacker–defender scenarios. Designed for both beginners and intermediate learners, the guide provides in-depth, hands-on instruction covering everything from virtual machine setup and secure networking to malware generation, event telemetry, and log analysis using enterprise-grade tools.
 
 
 ## 📑 Index
