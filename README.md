@@ -172,7 +172,7 @@ Once downloaded:
 
 ---
 
-## 8 Installing Sysmon & Splunk Before Isolation: Why It Matters
+## 8 Installing Sysmon and Splunk Before Isolation
 
 Once you've set up the internal network and isolated the virtual machines, they will no longer have internet access. Therefore, make sure you complete the installations of **Sysmon** and **Splunk** while the network is still in **NAT mode** (the default setting). Once this is done, you can proceed to network isolation safely.
 
@@ -474,7 +474,7 @@ Here's your full rewritten and **neatly organized** note with all points preserv
 
 ---
 
-## 14 **Malware Generation & Handler Setup Using Metasploit**
+## 14 **Malware Generation and Handler Setup Using Metasploit**
 
 
 ### 📌 Step 1: Get the IP Address of Your Kali Machine
