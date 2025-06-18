@@ -69,7 +69,7 @@ Feel free to customize with more machines (like Ubuntu for ELK stack, Security O
 
 ---
 
-## 💿 Step 3: Get a Windows 10 ISO Image
+## 4 Get a Windows 10 ISO Image
 
 There are several ways to install Windows 10, including using third-party ISO files or pre-made images. However, **creating your own Windows ISO image using Microsoft's official tool is one of the safest and most reliable methods**.
 
@@ -102,7 +102,7 @@ There are several ways to install Windows 10, including using third-party ISO fi
 
 ---
 
-## 🧱 Step 4: Set Up the Windows 10 Virtual Machine
+## 5 Set Up the Windows 10 Virtual Machine
 
 1. Open **VirtualBox**, click **New**.
     
@@ -127,7 +127,7 @@ There are several ways to install Windows 10, including using third-party ISO fi
 
 ---
 
-## 🪟 Step 5: Install Windows 10
+## 6 Install Windows 10
 
 1. Choose language, region, and keyboard layout.
     
@@ -146,7 +146,7 @@ Windows will now begin installation.
 
 ---
 
-## 🐱‍💻 Step 6: Install Kali Linux
+## 7 Install Kali Linux
 
 Download the official Kali Linux virtual machine image for easy import into VirtualBox.
 
@@ -172,7 +172,7 @@ Once downloaded:
 
 ---
 
-## ⚙️ Installing Sysmon & Splunk Before Isolation: Why It Matters
+## 8 Installing Sysmon & Splunk Before Isolation: Why It Matters
 
 Once you've set up the internal network and isolated the virtual machines, they will no longer have internet access. Therefore, make sure you complete the installations of **Sysmon** and **Splunk** while the network is still in **NAT mode** (the default setting). Once this is done, you can proceed to network isolation safely.
 
@@ -235,7 +235,7 @@ To recap:
 
 ---
 
-## 🛠️ Configuring Virtual Machine Networking Securely
+## 9 Configuring Virtual Machine Networking Securely
 
 When setting up virtual machines, default settings are usually fine for general use. However, if you're planning to analyze **malware or potentially harmful software**, using default networking configurations may put your **host machine at risk**.
 
@@ -271,7 +271,7 @@ You’ll see several network options. Here's a brief explanation of each:
 
 ---
 
-## 🔬 Malware Analysis Configuration (Recommended)
+## 10 Malware Analysis Configuration (Recommended)
 
 When analyzing malware, it’s essential to isolate the virtual machines from the internet and your host system. The **Internal Network** option is ideal in this case. This mode places your virtual machines in a completely separate network with **no internet access** or LAN access. You’ll need to **manually assign IP addresses** for each VM.
 
@@ -281,7 +281,7 @@ Avoid using **Generic Driver** or **Cloud Network** unless you're confident abou
 
 ---
 
-## 🔧 Step-by-Step Configuration in VirtualBox
+## 11 Step-by-Step Configuration in VirtualBox
 
 ### Step 1: Configure Internal Network
 
@@ -388,7 +388,7 @@ Once everything is configured and working:
 
 ---
 
-## 🖥️ Equivalent Setup in VMware Workstation
+## 12 Equivalent Setup in VMware Workstation
 
 If you're using **VMware Workstation**, the concept is similar but the naming is different.
 
@@ -416,7 +416,7 @@ Thanks! Here's the corrected version of that section with your instruction clear
 
 ---
 
-### 📂 Step 1: Configure `inputs.conf` to Ingest Sysmon Logs
+## 13 Configure `inputs.conf` to Ingest Sysmon Logs
 
 Head back to your **Windows VM** and navigate to the following path:
 
@@ -474,7 +474,7 @@ Here's your full rewritten and **neatly organized** note with all points preserv
 
 ---
 
-### 💡 **Malware Generation & Handler Setup Using Metasploit**
+## 14 **Malware Generation & Handler Setup Using Metasploit**
 
 
 ### 📌 Step 1: Get the IP Address of Your Kali Machine
@@ -686,7 +686,7 @@ ipconfig
 You're in! 🔓
 
 ---
-### 📊 Investigating Attack Activity in Splunk
+## 15 Investigating Attack Activity in Splunk
 
 Once you've successfully ingested **Sysmon logs** into Splunk and executed the simulated attack (e.g., Nmap scan and `Resume.pdf.exe` malware), here’s how to investigate these activities:
 
