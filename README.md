@@ -43,9 +43,9 @@ Ensure you have the following components prepared before beginning the SOC home 
 
 ## 2 Install VirtualBox
 
-1. Visit [https://www.virtualbox.org](https://www.virtualbox.org).
+1. Visit [https://www.virtualbox.org](https://www.virtualbox.org). Use VMware Workstation(https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion) because this is more convienent. In VMware Workstation you will need a subscription but you can easily change & configure network settings.
     
-2. Download the latest version of **VirtualBox** for your OS.
+2. Download the latest version of **VirtualBox/VMware Workstation** for your OS.
     
 3. Run the installer and complete the installation.
     
@@ -114,9 +114,9 @@ There are several ways to install Windows 10, including using third-party ISO fi
     
 5. Assign resources:
     
-    - RAM: at least 2–4 GB (more if you can)
+    - RAM: at least 4 GB (recomended)
         
-    - CPU: Minimum **1 core**, **2 cores recommended** for smoother performance
+    - CPU: Minimum **2 core**, **4 cores recommended** for smoother performance
         
 6. Keep virtual hard disk settings as default (dynamically allocated is fine).
     
